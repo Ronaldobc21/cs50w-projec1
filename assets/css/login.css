@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.tab-group {
+    list-style: none;
+}
+
+
+.field-camp label{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+  /*Height of the box field*/
+    margin-left: 44.9% ;
+    border-radius: 20px ;
+    padding: 5px;
+    border:  rebeccapurple solid 5px;
+}
+
+#login .field-camp {
+
+margin-top: 30px;
+
+}
+
+
+.forgot{
+    margin-left: 46.7%;
+}
+
+.buttom{
+    margin-left: 48.2%;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+
+button{
+    color: blue;
+}
+
+
+.format{
+    background-color: aquamarine;
+    border: 2px red solid;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:80% ;
+    margin-right: 1%;
+
+    
+}

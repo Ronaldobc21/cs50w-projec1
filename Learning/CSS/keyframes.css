@@ -1,0 +1,15 @@
+@keyframes push {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    
+    50% {
+      left: -100px;
+      top: 100px;
+    }
+    100% {
+      top: 50px;
+      left: 50px;
+    }
+  }

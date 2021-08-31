@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+body {
+  background: #e9e6f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  font-family: 'Varela Round', sans-serif;
+}
+
+::-moz-selection {
+  background: #fff;
+}
+
+::selection {
+  background: #fff;
+}
+
+#wrapper {
+  position: relative;
+}
+
+#wrapper input {
+  background: #6147ff;
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 40px;
+  font-family: inherit;
+  color: transparent;
+  text-shadow: 0 0 0 white;
+  -webkit-box-shadow: 0 10px 80px 0 rgba(97, 71, 255, 0.4);
+          box-shadow: 0 10px 80px 0 rgba(97, 71, 255, 0.4);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+#wrapper input:hover, #wrapper input:focus {
+  -webkit-box-shadow: 0 10px 80px 0 rgba(97, 71, 255, 0.6);
+          box-shadow: 0 10px 80px 0 rgba(97, 71, 255, 0.6);
+}
+
+#wrapper canvas {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  padding: 15px 5px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  -webkit-transition-property: left, top;
+  transition-property: left, top;
+}
+
+#wrapper.focused canvas {
+  top: 0;
+  left: -2px;
+}
+
+credit {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+}
+
+credit a {
+  color: black;
+}
+/*# sourceMappingURL=buscar.css.map */
